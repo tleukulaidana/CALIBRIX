@@ -1,4 +1,3 @@
-"""Builds A12 PDF = proposal (A4) + slides (16:9). All numbers are read from results.json."""
 import json, io, numpy as np
 from scipy.stats import wilcoxon
 from reportlab.lib.pagesizes import A4
@@ -12,7 +11,7 @@ from pypdf import PdfReader, PdfWriter
 
 
 AUTHOR = "[Aidana Tileukul]"
-VIDEO_URL = ""          
+VIDEO_URL = "https://youtu.be/4hDUzFCvdmk?si=jvKFf_szvtrJHwoK"          
 CODE_URL = "https://github.com/tleukulaidana/CALIBRIX"           
 OUT = "A12_Tileukul_Aidana.pdf"
 
