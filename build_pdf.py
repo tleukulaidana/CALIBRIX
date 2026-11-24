@@ -13,8 +13,8 @@ from pypdf import PdfReader, PdfWriter
 
 AUTHOR = "[Aidana Tileukul]"
 VIDEO_URL = ""          
-CODE_URL = ""           
-OUT = "A12_Surname_Name.pdf"
+CODE_URL = "https://github.com/tleukulaidana/CALIBRIX"           
+OUT = "A12_Tileukul_Aidana.pdf"
 
 NAVY, ORANGE, LIGHT = colors.HexColor("#2c2f54"), colors.HexColor("#e8a064"), colors.HexColor("#eef0f7")
 r = json.load(open("results.json")); res = r["res"]; S = r["summ"]; V = r["verdict"]; A = r["agg"]
